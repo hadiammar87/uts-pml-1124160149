@@ -10,7 +10,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(useMaterial3: true, colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue)),
       darkTheme: ThemeData(brightness: Brightness.dark, useMaterial3: true),
       themeMode: ThemeMode.system,
-      home: Container(),
+      home: const ProfilePage(),
     );
   }
+}
+class ProfilePage extends StatelessWidget {
+  const ProfilePage({super.key});
+  @override
+  Widget build(BuildContext context) { return Container(); }
 }
