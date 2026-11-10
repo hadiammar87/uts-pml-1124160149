@@ -46,7 +46,20 @@ class ProfilePage extends StatelessWidget {
           padding: const EdgeInsets.all(16.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: [],
+            children: [
+              const CircleAvatar(
+                radius: 50,
+                child: Icon(Icons.person, size: 50),
+              ),
+              Text(
+                'Hadi Ammar',
+                style: Theme.of(context).textTheme.headlineSmall,
+              ),
+              Text(
+                'NIM: 1124160149',
+                style: Theme.of(context).textTheme.bodyMedium,
+              ),
+            ],
           ),
         ),
       ),
