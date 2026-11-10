@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package02/flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Profil Mahasiswa',
+      title: 'Profil Hadi Ammar',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
@@ -35,6 +35,14 @@ class ProfilePage extends StatelessWidget {
             onPressed: () {},
           ),
         ],
+      ),
+      body: const SafeArea(
+        child: SingleChildScrollView(
+          padding: EdgeInsets.all(16.0),
+          child: Column(
+            children: [],
+          ),
+        ),
       ),
     );
   }
