@@ -82,6 +82,24 @@ class ProfilePage extends StatelessWidget {
                   ],
                 ),
               ),
+              const SizedBox(height: 24),
+              const Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  'Keahlian & Hobi',
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+              ),
+              const SizedBox(height: 8),
+              const Card(
+                child: Column(
+                  children: [
+                    InfoTile(icon: Icons.phone_android, label: 'Mobile Dev', value: 'Flutter & Dart'),
+                    InfoTile(icon: Icons.computer, label: 'Pemrograman', value: 'Logika & Algoritma'),
+                    InfoTile(icon: Icons.sports_esports, label: 'Hobi', value: 'Menonton & Bermain Game'),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
