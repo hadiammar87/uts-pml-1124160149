@@ -63,6 +63,25 @@ class ProfilePage extends StatelessWidget {
                 'Program Studi: Teknik Informatika',
                 style: TextStyle(color: Colors.grey),
               ),
+              const SizedBox(height: 24),
+              const Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  'Informasi Kontak',
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+              ),
+              const SizedBox(height: 8),
+              const Card(
+                child: Column(
+                  children: [
+                    InfoTile(icon: Icons.email, label: 'Email', value: 'hadiammar116@gmail.com'),
+                    InfoTile(icon: Icons.phone, label: 'Nomor HP', value: '08999187350'),
+                    InfoTile(icon: Icons.class_, label: 'Kelas', value: 'TI 24 M SE'),
+                    InfoTile(icon: Icons.code, label: 'Akun GitHub', value: 'github.com/hadiammar87'),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
@@ -71,7 +90,6 @@ class ProfilePage extends StatelessWidget {
   }
 }
 
-// Widget Reusable InfoTile (Tahap 3a)
 class InfoTile extends StatelessWidget {
   final IconData icon;
   final String label;
