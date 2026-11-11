@@ -51,14 +51,17 @@ class ProfilePage extends StatelessWidget {
                 radius: 50,
                 child: Icon(Icons.person, size: 50),
               ),
+              const SizedBox(height: 12),
               Text(
                 'Hadi Ammar',
                 style: Theme.of(context).textTheme.headlineSmall,
               ),
+              const SizedBox(height: 6),
               Text(
                 'NIM: 1124160149',
                 style: Theme.of(context).textTheme.bodyMedium,
               ),
+              const SizedBox(height: 24),
             ],
           ),
         ),
