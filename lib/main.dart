@@ -1,4 +1,4 @@
-import 'package02/flutter/material.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,11 +36,31 @@ class ProfilePage extends StatelessWidget {
           ),
         ],
       ),
-      body: const SafeArea(
+      body: SafeArea(
         child: SingleChildScrollView(
-          padding: EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(16.0),
           child: Column(
-            children: [],
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              const CircleAvatar(
+                radius: 50,
+                child: Icon(Icons.person, size: 50),
+              ),
+              Text(
+                'Hadi Ammar',
+                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                      fontWeight: FontWeight.bold,
+                    ),
+              ),
+              Text(
+                'NIM: 1124160149',
+                style: Theme.of(context).textTheme.bodyMedium,
+              ),
+              const Text(
+                'Program Studi: Teknik Informatika',
+                style: TextStyle(color: Colors.grey),
+              ),
+            ],
           ),
         ),
       ),
