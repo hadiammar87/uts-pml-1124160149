@@ -98,7 +98,7 @@ class ProfilePage extends StatelessWidget {
               const InfoTile(
                 icon: Icons.email,
                 label: 'Email',
-                value: 'hadiammar116@gmail.com',
+                value: 'hadiammar115@gmail.com',
               ),
               const InfoTile(
                 icon: Icons.phone,
@@ -116,6 +116,29 @@ class ProfilePage extends StatelessWidget {
                 value: 'github.com/hadiammar87',
               ),
               const SizedBox(height: 20),
+              const Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  'Keahlian & Hobi',
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+              ),
+              const SizedBox(height: 8),
+              const InfoTile(
+                icon: Icons.phone_android,
+                label: 'Mobile Development',
+                value: 'Flutter & Dart',
+              ),
+              const InfoTile(
+                icon: Icons.computer,
+                label: 'Software Engineering',
+                value: 'IT Governance (COBIT/ITIL)',
+              ),
+              const InfoTile(
+                icon: Icons.sports_esports,
+                label: 'Hobi',
+                value: 'Bermain Game',
+              ),
             ],
           ),
         ),
