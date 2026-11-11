@@ -98,7 +98,7 @@ class ProfilePage extends StatelessWidget {
               const InfoTile(
                 icon: Icons.email,
                 label: 'Email',
-                value: 'hadiammar115@gmail.com',
+                value: 'hadiammar116@gmail.com',
               ),
               const InfoTile(
                 icon: Icons.phone,
@@ -142,6 +142,16 @@ class ProfilePage extends StatelessWidget {
             ],
           ),
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Terima kasih telah melihat profil saya'),
+            ),
+          );
+        },
+        child: const Icon(Icons.thumb_up),
       ),
     );
   }
