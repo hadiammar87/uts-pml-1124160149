@@ -87,6 +87,35 @@ class ProfilePage extends StatelessWidget {
                 style: Theme.of(context).textTheme.bodyMedium,
               ),
               const SizedBox(height: 24),
+              const Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  'Informasi Kontak',
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+              ),
+              const SizedBox(height: 8),
+              const InfoTile(
+                icon: Icons.email,
+                label: 'Email',
+                value: 'hadiammar116@gmail.com',
+              ),
+              const InfoTile(
+                icon: Icons.phone,
+                label: 'Nomor HP',
+                value: '08999187350',
+              ),
+              const InfoTile(
+                icon: Icons.class_,
+                label: 'Kelas',
+                value: 'TI 24 M SE',
+              ),
+              const InfoTile(
+                icon: Icons.code,
+                label: 'Akun GitHub',
+                value: 'github.com/hadiammar87',
+              ),
+              const SizedBox(height: 20),
             ],
           ),
         ),
