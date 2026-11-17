@@ -5,7 +5,7 @@ Repositori ini dibuat untuk memenuhi Ujian Tengah Semester (UTS) mata kuliah Pem
 ## 👤 Identitas Mahasiswa
 * **Nama:** Hadi Ammar
 * **NIM:** 1124160149
-* **Program Studi** Teknik Informatika
+* **Program Studi:** Teknik Informatika
 * **Kelas:** TI 24 M SE
 
 ---
@@ -24,7 +24,7 @@ Repositori ini dibuat untuk memenuhi Ujian Tengah Semester (UTS) mata kuliah Pem
 ---
 
 ## 📂 Struktur Repositori
-* `soal2-profil-app/` : Kode sumber penyelesaian Soal 2 (Proyek Aplikasi Profil Mahasiswa Modular & Git Commit Bertahap)
+* `soal2_profil_app/` : Kode sumber penyelesaian Soal 2 (Proyek Aplikasi Profil Mahasiswa Modular dengan Form Validation, Dynamic Theme, dan Git Commit Bertahap)
 
 ---
 
