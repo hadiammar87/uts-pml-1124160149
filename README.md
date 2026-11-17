@@ -11,7 +11,7 @@ Repositori ini dibuat untuk memenuhi Ujian Tengah Semester (UTS) mata kuliah Pem
 ---
 
 ## 📺 Link Video Presentasi YouTube (Soal 2)
-* Link Video Demo & Presentasi: [Masukkan Link YouTube]
+* Link Video Demo & Presentasi: [Link YouTube]
 
 ---
 
