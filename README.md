@@ -11,15 +11,20 @@ Repositori ini dibuat untuk memenuhi Ujian Tengah Semester (UTS) mata kuliah Pem
 ---
 
 ## 📺 Link Video Presentasi YouTube (Soal 2)
-* Link Video Demo & Presentasi: [Link YouTube]
+* Link Video Demo & Presentasi: [[Link YouTube]](https://youtu.be/OxfMOYj2dHw)
 
 ---
 
 ## 📸 Screenshot Aplikasi (Soal 2)
 *(Letakkan file gambar screenshot di dalam folder repo atau lampirkan link gambarnya di sini)*
 * **Halaman Utama & Drawer:**
+* <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/26c549c0-fdae-4473-bb1e-ab3aa886f3d5" />
+
 * **Halaman Edit Profil (Form Validation):**
+* <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/7b8719ba-f2df-4123-ae4c-b156183bd691" />
+
 * **Halaman Tentang Saya:**
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/d65ecc2c-167c-4227-beb8-b6c95f5235ce" />
 
 ---
 
